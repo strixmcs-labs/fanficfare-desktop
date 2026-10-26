@@ -1,14 +1,16 @@
 # FanFicFare Desktop
 
+`StrixMCS Labs · Dr. Matt Booth`
+
 A standalone desktop interface for [JimmXinu/FanFicFare](https://github.com/JimmXinu/FanFicFare), built with Python and PySide6 (Qt). Designed for macOS, Windows, and Linux.
 
-[![Desktop checks and builds](https://github.com/thatosxguy/fanficfare-desktop/actions/workflows/check.yml/badge.svg)](https://github.com/thatosxguy/fanficfare-desktop/actions/workflows/check.yml)
+[![Desktop checks and builds](https://github.com/strixmcs-labs/fanficfare-desktop/actions/workflows/check.yml/badge.svg)](https://github.com/strixmcs-labs/fanficfare-desktop/actions/workflows/check.yml)
 
 ![Desktop interface](docs/desktop-empty.png)
 
 ## Download
 
-Get the packaged app from [GitHub Releases](https://github.com/thatosxguy/fanficfare-desktop/releases/latest). Python is included; no separate Python installation is needed.
+Get the packaged app from [GitHub Releases](https://github.com/strixmcs-labs/fanficfare-desktop/releases/latest). Python is included; no separate Python installation is needed.
 
 - **macOS (Apple Silicon):** extract the ZIP and move `FanFicFare Desktop.app` to Applications.
 - **Windows (x86-64):** extract the ZIP and open `FanFicFare Desktop.exe` inside the application folder.
@@ -99,7 +101,7 @@ The benchmark measures local word counting on synthetic chapter text; it does no
 
 PyInstaller builds a native app in `dist/`. Build on each target OS; it does not cross-compile. The packaging script creates a ZIP for macOS/Windows or a TAR.GZ for Linux under `dist/artifacts/`. macOS and Linux archives preserve executable permissions and symlinks.
 
-[GitHub Actions](https://github.com/thatosxguy/fanficfare-desktop/actions/workflows/check.yml) runs tests, native builds, and packaged-app smoke checks on macOS, Windows, and Linux. Successful runs upload native app archives as workflow artifacts, available from the run's page when signed into GitHub. Development artifacts have an outer ZIP that must also be extracted. Public release packages are available directly from [GitHub Releases](https://github.com/thatosxguy/fanficfare-desktop/releases/latest). Distribution signing, notarization, and installers are not included in the current release.
+[GitHub Actions](https://github.com/strixmcs-labs/fanficfare-desktop/actions/workflows/check.yml) runs tests, native builds, and packaged-app smoke checks on macOS, Windows, and Linux. Successful runs upload native app archives as workflow artifacts, available from the run's page when signed into GitHub. Development artifacts have an outer ZIP that must also be extracted. Public release packages are available directly from [GitHub Releases](https://github.com/strixmcs-labs/fanficfare-desktop/releases/latest). Distribution signing, notarization, and installers are not included in the current release.
 
 ## License
 
@@ -108,3 +110,9 @@ The desktop interface is licensed under [Apache-2.0](LICENSE). See [NOTICE](NOTI
 ## Attribution
 
 This is an independent interface, not an official FanFicFare release. The downloading engine and site adapters belong to the [FanFicFare contributors](https://github.com/JimmXinu/FanFicFare). Their license and notices remain with the installed dependency; upstream declares Apache-2.0 in its [package metadata](https://github.com/JimmXinu/FanFicFare/blob/main/pyproject.toml) and includes additional notices in [LICENSE](https://github.com/JimmXinu/FanFicFare/blob/main/LICENSE). PySide6 is provided by the Qt project under its applicable licenses. Review bundled third-party licenses before distributing builds.
+
+---
+
+*Scientia · Societas · Ascensus*  
+Knowledge · Society · Ascent  
+[mattbooth.me](https://mattbooth.me) · `StrixMCS Labs · Dr. Matt Booth`
