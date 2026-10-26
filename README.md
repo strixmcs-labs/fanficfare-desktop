@@ -2,6 +2,8 @@
 
 `StrixMCS Labs · Dr. Matt Booth`
 
+**Powered by [FanFicFare](https://github.com/JimmXinu/FanFicFare)**, by **Jim Miller (JimmXinu) and the FanFicFare contributors**. FanFicFare provides the download engine and site adapters; this repository provides the desktop interface around it.
+
 A standalone desktop interface for [JimmXinu/FanFicFare](https://github.com/JimmXinu/FanFicFare), built with Python and PySide6 (Qt). Designed for macOS, Windows, and Linux.
 
 [![Desktop checks and builds](https://github.com/strixmcs-labs/fanficfare-desktop/actions/workflows/check.yml/badge.svg)](https://github.com/strixmcs-labs/fanficfare-desktop/actions/workflows/check.yml)
