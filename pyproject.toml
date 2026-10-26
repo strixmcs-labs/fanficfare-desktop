@@ -16,8 +16,8 @@ dependencies = ["PySide6>=6.8,<7", "FanFicFare[image_processing]>=4.59,<5"]
 dev = ["pytest>=8", "pytest-qt>=4", "pyinstaller>=6"]
 
 [project.urls]
-Homepage = "https://github.com/thatosxguy/fanficfare-desktop"
-Issues = "https://github.com/thatosxguy/fanficfare-desktop/issues"
+Homepage = "https://github.com/strixmcs-labs/fanficfare-desktop"
+Issues = "https://github.com/strixmcs-labs/fanficfare-desktop/issues"
 
 [project.gui-scripts]
 fanficfare-desktop = "fanficfare_gui.__main__:main"
